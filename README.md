@@ -53,4 +53,27 @@ Created by [@githubusername] - feel free to contact me!
 
 
 1. Create a multi-classification model
-2. 
+2. Use prefetch dataset
+3. 3. 2 or 3 convolv layers and then max pooling and fc layer
+4. create 1D array as output of flattening layer
+5. stochastic or Adam optimizer
+6. categorical entropy loss by summation of P log P
+7. Findings in terms of overfitting or underfitting
+8. then use data augmentation like zoom, flip, rotate (atleat 2 to 3 by tf.keras.layers)
+9. tf.keras.sequential([
+layer.experimental.preprocessing().
+random.flip
+or random.rotation
+or random.zoom
+
+
+
+    ])
+  from trainds get1 image and apply this keras to this image and then show the visualize outcome and show the graph and then explain for all the 9 different class
+then do it for the model
+11. https://stackoverflow.com/questions/66570789/keras-experimental-randomflip-and-randomrotation-do-not-work-with-map
+12. use dropout after convolv layers
+13. for imbalance sanity check - take trainds and then do a count of images for all 9 different classes and explain the findings like img domination and minimum imaging sample
+14. and write in finding
+15. then install augmentor pip install augmentor
+16. normalization in top layer like convolv layer
