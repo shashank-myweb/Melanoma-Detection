@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Melanoma Detection assignment
+> Multi classification assignment based on CNN
 
 
 ## Table of Contents
@@ -8,37 +8,27 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- This assignment is about Multi Classification in ML where expectation is to create CNN Model which does the Image classification into one of the 9 Cancer types
+- Build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. 
+- Create a solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+- The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- The dataset had class imbalances because of occurrence of each cancer type and hence the images in the dataset were having imbalance
+- Seborrheic keratosis has the least sample size in the dataset
+- Pigmented benign keratosis has the dominant sample size
+- Data augmentation and Dropout were requird to balance this imbalance
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- pathlib
+- tensorflow
+- matplotlib
+- numpy
+- pandas
+- os
+- Google Colab
 
 
 ## Contact
